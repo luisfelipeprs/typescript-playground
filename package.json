@@ -1,0 +1,33 @@
+{
+  "name": "typescript-playground",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A TypeScript project showcasing advanced language features.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisfelipeprs/typescript-playground.git"
+  },
+  "keywords": [
+    "typescript",
+    "advanced",
+    "generics",
+    "conditional-types"
+  ],
+  "author": "Luís Felipe Silva",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.1.10",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "ts-loader": "^9.0.0",
+    "ts-node": "^10.9.2"
+  }
+}
