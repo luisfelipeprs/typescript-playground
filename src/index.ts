@@ -1,3 +1,4 @@
-import { helloSmall } from "./conditional-types/index.ts";
-
-helloSmall()
+// call ur function here!
+// Example:
+// import { main } from "./conditional-types/index.ts";
+// main()
