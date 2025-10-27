@@ -1,26 +1,11 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "lib": ["ESNext", "DOM"],
-    "strict": true,
+    "target": "ES2020",
+    "module": "commonjs",
+    "rootDir": "src",
+    "outDir": "dist",
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "baseUrl": "./src",
-    "paths": {
-      "*": ["types/*"]
-    },
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "noEmit": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "jsx": "react-jsx"
-  },
-  "ts-node": {
-    "esm": true
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "**/*.spec.ts"]
+    "strict": true,
+    "skipLibCheck": true
+  }
 }

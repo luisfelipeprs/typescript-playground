@@ -15,7 +15,7 @@ badass typescript features
    npm install
    ```
 
-3. **Run the application (dev mode):**
+3. **Run the file:**
    ```
-   npm run dev
+   npx ts-node <file_name>
    ```

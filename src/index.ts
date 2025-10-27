@@ -1,4 +1,1 @@
-// call ur function here!
-// Example:
-// import { main } from "./conditional-types/index.ts";
-// main()
+console.log('let him cook')
